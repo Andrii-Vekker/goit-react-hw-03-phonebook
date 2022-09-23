@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Andrii-Vekker/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css",
-    "main.js": "/Andrii-Vekker/goit-react-hw-02-phonebook/static/js/main.e4cfd7f4.js",
+    "main.js": "/Andrii-Vekker/goit-react-hw-02-phonebook/static/js/main.86a86f32.js",
     "index.html": "/Andrii-Vekker/goit-react-hw-02-phonebook/index.html",
     "main.7acaea2f.css.map": "/Andrii-Vekker/goit-react-hw-02-phonebook/static/css/main.7acaea2f.css.map",
-    "main.e4cfd7f4.js.map": "/Andrii-Vekker/goit-react-hw-02-phonebook/static/js/main.e4cfd7f4.js.map"
+    "main.86a86f32.js.map": "/Andrii-Vekker/goit-react-hw-02-phonebook/static/js/main.86a86f32.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.e4cfd7f4.js"
+    "static/js/main.86a86f32.js"
   ]
 }
