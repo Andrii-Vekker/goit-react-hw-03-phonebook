@@ -4,11 +4,30 @@ import ContactFormrm from "./Form/ContactForm";
 import ContactsList from "./ContactsList/ContactsList";
 import Filter from "./Filter/Filter";
 
+const LC_KEY = "contacts"
+
 export class App extends Component {
 
   state = {
     filter: '',
     contacts: [],
+  };
+
+  componentDidUpdate(_, prevState) {
+    if (this.state.contacts.length !== prevState.contacts.length) {
+      localStorage.setItem(LC_KEY, JSON.stringify(this.state.contacts))
+    };
+  };
+
+  componentDidMount() {
+    const contacts = localStorage.getItem(LC_KEY);
+    const parcedContacts = JSON.parse(contacts);
+    if (parcedContacts) {
+this.setState({
+      contacts: parcedContacts
+    });
+    };
+    
   };
 
   addContacts = (data) => {
