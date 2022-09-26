@@ -1,7 +1,7 @@
 
 import { List, Item } from "./ContactList.styled";
 import { BtnAdd } from "components/Form/Form.styled";
-import PropTypes from 'prop-types';
+    import PropTypes from 'prop-types';
 
 
 export default function ContactsList({ contacts, removeContacts }) {
